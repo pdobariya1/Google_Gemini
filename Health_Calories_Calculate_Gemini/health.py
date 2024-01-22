@@ -6,7 +6,7 @@ from dotenv import dotenv_values
 
 
 # Load environment variable
-config = dotenv_values("D:/Project1/Gemini_chat_app/.env")
+config = dotenv_values("D:/Project1/Google_Gemini/.env")
 SECRET_KEY = config["GOOGLE_API_KEY"]
 
 genai.configure(api_key=SECRET_KEY)
